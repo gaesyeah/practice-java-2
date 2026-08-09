@@ -1,3 +1,7 @@
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 public class Ex5 extends ExBase {
   public Ex5() {
     super(5);
@@ -14,6 +18,16 @@ public class Ex5 extends ExBase {
           System.out.println(secondArrayWord);
           break;
         }
+      }
+    }
+  }
+
+  public void printRepeatedElementsFromHashSet(List<String> firstList, List<String> secondList) {
+    Set<String> secondSet = new HashSet<>(secondList);
+
+    for (String word : firstList) {
+      if (secondSet.contains(word)) {
+        System.out.println(word);
       }
     }
   }

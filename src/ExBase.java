@@ -1,5 +1,5 @@
 public abstract class ExBase {
-  public ExBase(int exerciseNumber) {
+  protected ExBase(int exerciseNumber) {
     System.out.println("\n-------------exercise:" + exerciseNumber + "-------------\n");
   }
 }

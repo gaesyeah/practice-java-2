@@ -5,7 +5,7 @@ public class Ex4 extends ExBase {
     super(4);
   }
 
-  public void printPyramid(int height) {
+  public static void printPyramid(int height) {
     if (height <= 0) {
       System.out.println("O número deve ser maior que 0.");
       return;

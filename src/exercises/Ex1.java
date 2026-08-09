@@ -5,7 +5,7 @@ public class Ex1 extends ExBase {
     super(1);
   }
 
-  public void printIntegerProperties(int integer) {
+  public static void printIntegerProperties(int integer) {
     String resultText = integer + " é ";
 
     if (integer % 2 == 0) {

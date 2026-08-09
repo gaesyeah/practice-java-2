@@ -5,7 +5,7 @@ public class Ex2 extends ExBase {
     super(2);
   }
 
-  public void printFibonacciSequence(int length) {
+  public static void printFibonacciSequence(int length) {
     if (length <= 0) {
       System.out.println("O número deve ser maior que 0.");
       return;

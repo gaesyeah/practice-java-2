@@ -4,12 +4,13 @@ public class Ex2 extends ExBase {
   }
 
   public void printFibonacciSequence(int length) {
-    StringBuilder fibonacciLine = new StringBuilder();
 
     if (length <= 0) {
       System.out.println("O número deve ser maior que 0.");
       return;
     }
+
+    StringBuilder fibonacciLine = new StringBuilder();
 
     fibonacciLine.append(0);
 

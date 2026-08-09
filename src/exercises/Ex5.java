@@ -9,7 +9,7 @@ public class Ex5 extends ExBase {
     super(5);
   }
 
-  public static void printRepeatedElements(String[] firstArray, String[] secondArray) {
+  public void printRepeatedElements(String[] firstArray, String[] secondArray) {
     for (int i = 0; i < firstArray.length; i++) {
       String firstArrayWord = firstArray[i];
 
@@ -24,7 +24,7 @@ public class Ex5 extends ExBase {
     }
   }
 
-  public static void printRepeatedElementsWithHashSet(List<String> firstList, List<String> secondList) {
+  public void printRepeatedElementsWithHashSet(List<String> firstList, List<String> secondList) {
     Set<String> secondSet = new HashSet<>(secondList);
 
     for (String word : firstList) {

@@ -5,7 +5,7 @@ public class Ex3 extends ExBase {
     super(3);
   }
 
-  public static void printMultiplicationTable(int multiplier, int maxMultiplier) {
+  public void printMultiplicationTable(int multiplier, int maxMultiplier) {
     for (int i = 0; i <= maxMultiplier; i++) {
       int result = multiplier * i;
 

@@ -1,3 +1,5 @@
+package exercises;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -22,7 +24,7 @@ public class Ex5 extends ExBase {
     }
   }
 
-  public void printRepeatedElementsFromHashSet(List<String> firstList, List<String> secondList) {
+  public void printRepeatedElementsWithHashSet(List<String> firstList, List<String> secondList) {
     Set<String> secondSet = new HashSet<>(secondList);
 
     for (String word : firstList) {

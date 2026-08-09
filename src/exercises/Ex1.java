@@ -1,3 +1,5 @@
+package exercises;
+
 public class Ex1 extends ExBase {
   public Ex1() {
     super(1);

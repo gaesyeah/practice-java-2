@@ -5,6 +5,7 @@ import exercises.Ex3;
 import exercises.Ex4;
 import exercises.Ex5;
 import exercises.Ex6.Holidayzer;
+import exercises.Ex8.Library;
 
 public class App {
   public static void main(String[] args) throws Exception {
@@ -25,5 +26,12 @@ public class App {
     holidayzer.isHolyday("01-01-2024");
     holidayzer.isHolyday("12-09-2024");
     holidayzer.printHolydayList();
+
+    Library library = new Library();
+    library.printAvailableBooks();
+    library.borrowBook("A Hora da Estrela");
+    library.printAvailableBooks();
+    library.returnBook("A Hora da Estrela");
+    library.printAvailableBooks();
   }
 }

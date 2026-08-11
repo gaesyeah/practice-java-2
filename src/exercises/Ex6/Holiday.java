@@ -1,10 +1,10 @@
 package exercises.Ex6;
 
-public class Holyday {
+public class Holiday {
   private String date;
   private String name;
 
-  public Holyday(String date, String name) {
+  public Holiday(String date, String name) {
     this.date = date;
     this.name = name;
   }

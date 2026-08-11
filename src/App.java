@@ -23,9 +23,9 @@ public class App {
     new Ex5().printRepeatedElementsWithHashSet(firstList, secondList);
 
     Holidayzer holidayzer = new Holidayzer();
-    holidayzer.isHolyday("01-01-2024");
-    holidayzer.isHolyday("12-09-2024");
-    holidayzer.printHolydayList();
+    holidayzer.isHoliday("01-01-2024");
+    holidayzer.isHoliday("12-09-2024");
+    holidayzer.printHolidayList();
 
     Library library = new Library();
     library.printAvailableBooks();
